@@ -1,0 +1,16 @@
+/**
+ * @name Horizontal Server List
+ * @author MoonMoon
+ * @description Moves the server list from the left to the top of Discord. Originally made by: Gibbu#1211
+*/
+
+@import url('https://raw.githubusercontent.com/m0onmo0n/MoonHorizontalServerList/refs/heads/main/update/HorizontalServerList.css');
+
+/* Bottom HorizontalServerList. Simply remove the comments surrounding the @import to enable it. */
+/* @import url("https://raw.githubusercontent.com/moonmoon97/MoonHorizontalServerList/master/bottomhsl.css"); */
+:root {
+  --HSL-server-icon-size: 40px; /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px; /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direction of the server list. | OPTIONS: column, column-reverse | DEFAULT: column */
+  --HSL-server-alignment: flex-start; /* Alignment of the server list. | OPTIONS: flex-start, center, flex-end | DEFAULT: flex-start */
+}
